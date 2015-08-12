@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>351</width>
+    <height>157</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tourney Info</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QComboBox" name="cb_tourneyid">
+     <property name="whatsThis">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Tournament Type</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Tournament Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Tournament ID</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QComboBox" name="cb_buyin">
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>$1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>$2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>$5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>$10</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>$25</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QDateEdit" name="cb_date">
+     <property name="minimumDateTime">
+      <datetime>
+       <hour>0</hour>
+       <minute>0</minute>
+       <second>0</second>
+       <year>2014</year>
+       <month>1</month>
+       <day>1</day>
+      </datetime>
+     </property>
+     <property name="minimumDate">
+      <date>
+       <year>2014</year>
+       <month>1</month>
+       <day>1</day>
+      </date>
+     </property>
+     <property name="displayFormat">
+      <string>M/d</string>
+     </property>
+     <property name="calendarPopup">
+      <bool>true</bool>
+     </property>
+     <property name="currentSectionIndex">
+      <number>1</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QComboBox" name="cb_type">
+     <item>
+      <property name="text">
+       <string>50/50</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GPP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>League</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Date</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QLineEdit" name="le_name">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Buy In</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="btn_submit">
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QPushButton" name="btn_close">
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="btn_refresh">
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
