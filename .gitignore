@@ -1,3 +1,5 @@
 db.ini
 myname.txt
 usernames.txt
+*.csv
+*.pyc
